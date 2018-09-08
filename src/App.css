@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+}
+
+.leftSection {
+  flex: 1;
+}
+
+.rightSection {
+  flex: 1;
+  background: #53d397;
+  text-align: center;
+}
+
+.logoContainer {
+  padding: 20px 50px;
+}
+
+.logo {
+  color: #53d397;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.stickers {
+  padding: 20px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sticker {
+  height: 100px;
+  padding: 20px;
+  cursor: move;
+}
+
+.info {
+  color: #f7f9ff;
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 20px;
+}
+
+.mac {
+  height: 700px;
+}
+
+.buyNowButton {
+  text-align: center;
+}
+
+.buyNow {
+  background: #53d397;
+  color: #f7f9ff;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
